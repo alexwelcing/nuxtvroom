@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     '@tresjs/nuxt',
     '@nuxt/content',
+    '@nuxthq/studio',
   ],
   content: {
     // ... options
