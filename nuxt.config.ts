@@ -8,7 +8,12 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
+    '@tresjs/nuxt',
+    '@nuxt/content',
   ],
+  content: {
+    // ... options
+  },
 
   experimental: {
     // when using generate, payload js assets included in sw precache manifest

@@ -13,5 +13,6 @@ const router = useRouter()
         Back
       </button>
     </div>
+    <ContentDoc />
   </main>
 </template>

@@ -1,5 +1,13 @@
 <script setup lang="ts">
+import { onMounted, ref } from 'vue'
+import ThreeCube from '~/components/ThreeCube.vue'
+
 const online = useOnline()
+const contents = ref([])
+
+onMounted(async () => {
+  contents.value = await fetch('/')
+})
 </script>
 
 <template>
@@ -19,5 +27,9 @@ const online = useOnline()
       </template>
     </Suspense>
     <InputEntry />
+    <ThreeCube v-if="contents.length > 0" />
+    <div v-for="content in contents" :key="content.slug">
+      {{ content.title }}
+    </div>
   </div>
 </template>
