@@ -27,7 +27,7 @@ onMounted(async () => {
       </template>
     </Suspense>
     <InputEntry />
-    <ThreeCube v-if="contents.length > 0" />
+    <ThreeCube />
     <div v-for="content in contents" :key="content.slug">
       {{ content.title }}
     </div>
