@@ -1,17 +1,5 @@
-<p align="center">
-<img src="https://user-images.githubusercontent.com/11247099/140462375-7b7ac4db-35b7-453c-8a05-13d8d20282c4.png" width="600"/>
-</p>
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Falexwelcing%2Fnuxtvroom%2Ftree%2Fmain&env=NUXT_PUBLIC_STUDIO_TOKENS&envDescription=Get%20Token%20to%20allow%20editor%20access%20of%20Nuxt%20Studio.&envLink=https%3A%2F%2Fnuxt.studio%2F)
 
-<h2 align="center">
-<a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3
-</h2><br>
-
-<p align="center">
-<br>
-<a href="https://vitesse-nuxt3.netlify.app/">🖥 Online Preview</a>
-<br><br>
-<a href="https://stackblitz.com/github/antfu/vitesse-nuxt3"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
-</p>
 
 ## Features
 
